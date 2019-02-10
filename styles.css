@@ -1,0 +1,48 @@
+/*Styles for different classes in the main and order pages*/
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+
+    width: 100%;
+    height: 15%;
+    background: #7c7979 url('images/header.png');
+    display:table;
+
+}
+
+span{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    color: #ffffff;
+    font-size: 450%;
+    font-family: "Gill Sans MT";
+}
+
+.midbar {
+
+    background: #ffffff;
+    width: 100%;
+    height: 5%;
+}
+
+.content {
+    background: #7c7979 url('images/background.jpg');
+    /*background: #f9f9f9;*/
+    float: left;
+    width: 100%;
+    height: inherit;
+
+}
+
+.images {
+
+    height: 350px;
+    width: 300px;
+
+}
